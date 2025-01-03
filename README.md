@@ -74,6 +74,9 @@ Run the container again using the steps provided above.
 Upon restarting, a clean version of the training notebook will be placed in the newly created data directory.
 This will reset your MicroWakeWord-Training-Docker environment to its initial state.
 
+## Credits
+
+This project builds upon the excellent work of [kahrendt/microWakeWord](https://github.com/kahrendt/microWakeWord). A huge thank you to the original authors for their contributions to the open-source community!
 
 
 
