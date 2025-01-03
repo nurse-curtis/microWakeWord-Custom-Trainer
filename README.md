@@ -14,39 +14,6 @@ Follow these steps to get started with the microWakeWord Trainer:
 ### 1. Pull the Pre-Built Docker Image
 
 Pull the Docker image from Docker Hub:
-
-```bash
-docker pull masterphooey/microwakeword-trainer
-```
-
-### 2. Run the Docker Container
-Start the container with a mapped volume for saving your data and expose the Jupyter Notebook:
-
-```bash
-docker run --rm -it \
-    --gpus all \ 
-    -p 8888:8888 \
-    -v $(pwd):/data \
-    masterphooey/microwakeword-trainer
-```
-
-
-# microWakeWord Trainer Docker
-
-Easily train wake word detection models with this pre-built Docker image.
-
-## Prerequisites
-
-- Docker installed on your system.
-- An NVIDIA GPU with CUDA support (optional but recommended for faster training).
-
-## Quick Start
-
-Follow these steps to get started with the microWakeWord Trainer:
-
-### 1. Pull the Pre-Built Docker Image
-
-Pull the Docker image from Docker Hub:
 ```bash
 docker pull masterphooey/microwakeword-trainer
 ```
