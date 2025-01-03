@@ -1,4 +1,8 @@
-# microWakeWord Trainer Docker
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MasterPhooey/MicroWakeWord-Trainer-Docker/refs/heads/main/mmw.png" alt="MicroWakeWord Trainer Logo" />
+</div>
+
+# MicroWakeWord Trainer Docker
 
 Easily train wake word detection models with this pre-built Docker image.
 
