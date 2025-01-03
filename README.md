@@ -1,5 +1,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/MasterPhooey/MicroWakeWord-Trainer-Docker/refs/heads/main/mmw.png" alt="MicroWakeWord Trainer Logo" />
+  <h1>MicroWakeWord Trainer Docker</h1>
 </div>
 
 # MicroWakeWord Trainer Docker
