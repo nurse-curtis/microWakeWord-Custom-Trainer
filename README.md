@@ -61,16 +61,16 @@ Output a quantized .tflite model for on-device use.
 ### 6. Retrieve the Trained Model and JSON
 Once the training is complete, the quantized .tflite model and .json will be available for download. Follow the instructions in the last cell of the notebook to download the model.
 
-### Resetting to a Clean State
+## Resetting to a Clean State
 If you need to start fresh:
 
-## Delete your data folder:
+### Delete your data folder:
 Locate and delete the data folder that was mapped to your Docker container.
 
-## Restart the Docker container:
+### Restart the Docker container:
 Run the container again using the steps provided above.
 
-## Fresh notebook generated:
+### Fresh notebook generated:
 Upon restarting, a clean version of the training notebook will be placed in the newly created data directory.
 This will reset your MicroWakeWord-Training-Docker environment to its initial state.
 
