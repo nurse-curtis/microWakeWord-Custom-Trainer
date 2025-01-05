@@ -51,8 +51,9 @@ RUN python3.10 -m pip install --no-cache-dir numpy==1.26.4
 # Create a data directory for external mapping
 RUN mkdir -p /data
 
-# Copy the notebook to a fallback location in the container
+# Copy the notebooks to a fallback location in the container
 ADD https://raw.githubusercontent.com/MasterPhooey/MicroWakeWord-Trainer-Docker/refs/heads/main/basic_training_notebook.ipynb /root/basic_training_notebook.ipynb
+ADD https://raw.githubusercontent.com/MasterPhooey/MicroWakeWord-Trainer-Docker/refs/heads/main/advanced_training_notebook.ipynb /root/advanced_training_notebook.ipynb
 
 # Add the startup script from GitHub
 ADD https://raw.githubusercontent.com/MasterPhooey/MicroWakeWord-Trainer-Docker/refs/heads/main/startup.sh /usr/local/bin/startup.sh
