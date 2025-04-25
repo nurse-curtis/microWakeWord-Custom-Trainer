@@ -1,9 +1,9 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/MasterPhooey/MicroWakeWord-Trainer-Docker/refs/heads/main/mmw.png" alt="MicroWakeWord Trainer Logo" width="100" />
-  <h1>MicroWakeWord Trainer Docker</h1>
+  <h1>microWakeWord Custom Trainer</h1>
 </div>
 
-Easily train MicroWakeWord detection models with this pre-built Docker image.
+Easily train microWakeWord detection models with this pre-built Docker image.
 
 ## Prerequisites
 
@@ -12,13 +12,13 @@ Easily train MicroWakeWord detection models with this pre-built Docker image.
 
 ## Quick Start
 
-Follow these steps to get started with the microWakeWord Trainer:
+Follow these steps to get started with the microWakeWord Custom Trainer:
 
 ### 1. Pull the Pre-Built Docker Image
 
 Pull the Docker image from Docker Hub:
 ```bash
-docker pull masterphooey/microwakeword-trainer
+docker pull stujenn/microwakeword-custom-trainer
 ```
 
 ### 2. Run the Docker Container
@@ -26,7 +26,7 @@ docker pull masterphooey/microwakeword-trainer
 Start the container with a mapped volume for saving your data and expose the Jupyter Notebook:
 ```bash
 docker run --rm -it \
-    --gpus all \ 
+    --gpus all \
     -p 8888:8888 \
     -v $(pwd):/data \
     masterphooey/microwakeword-trainer
