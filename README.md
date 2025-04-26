@@ -14,15 +14,13 @@ Easily train microWakeWord detection models with this pre-built Docker image.
 
 Follow these steps to get started with the microWakeWord Custom Trainer:
 
-### 1. Clone the Repo
+### 1. Build the Docker Imagte
 
-Clone the GitHub repo:
+If you don't have the directory already on your machine, clone the GitHub repo:
 ```bash
 git clone https://github.com/stujenn/microWakeWord-Custom-Trainer
 cd microWakeWord-Trainer-Docker
 ```
-
-### 1. Build the Docker Image
 
 Build the docker image from the provided dockerfile:
 ```bash
