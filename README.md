@@ -19,7 +19,7 @@ Follow these steps to get started with the microWakeWord Custom Trainer:
 Clone the GitHub repo:
 ```bash
 git clone https://github.com/stujenn/microWakeWord-Custom-Trainer
-cd MicroWakeWord-Trainer-Docker
+cd microWakeWord-Trainer-Docker
 ```
 
 ### 1. Build the Docker Image
