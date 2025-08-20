@@ -43,7 +43,6 @@ RUN wget https://developer.download.nvidia.com/compute/cudnn/9.3.0/local_install
 
 # Install Python dependencies from requirements.txt
 ADD https://raw.githubusercontent.com/NotPhoton/microWakeWord-Custom-Trainer/refs/heads/main/requirements.txt /tmp/requirements.txt
-RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
 # Ensure numpy is installed for Python 3.10
 RUN python3.10 -m pip install --no-cache-dir numpy==1.26.4
