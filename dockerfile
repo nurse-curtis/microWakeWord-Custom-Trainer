@@ -42,7 +42,7 @@ RUN wget https://developer.download.nvidia.com/compute/cudnn/9.3.0/local_install
     rm -f cudnn-local-repo-ubuntu2004-9.3.0_1.0-1_amd64.deb
 
 # Install Python dependencies from requirements.txt
-ADD https://raw.githubusercontent.com/stujenn/microWakeWord-Custom-Trainer/refs/heads/main/requirements.txt /tmp/requirements.txt
+ADD https://raw.githubusercontent.com/NotPhoton/microWakeWord-Custom-Trainer/refs/heads/main/requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
 # Ensure numpy is installed for Python 3.10
@@ -52,11 +52,11 @@ RUN python3.10 -m pip install --no-cache-dir numpy==1.26.4
 RUN mkdir -p /data
 
 # Copy the notebooks to a fallback location in the container
-ADD https://raw.githubusercontent.com/stujenn/microWakeWord-Custom-Trainer/refs/heads/main/basic_training_notebook.ipynb /root/basic_training_notebook.ipynb
-ADD https://raw.githubusercontent.com/stujenn/microWakeWord-Custom-Trainer/refs/heads/main/advanced_training_notebook.ipynb /root/advanced_training_notebook.ipynb
+ADD https://raw.githubusercontent.com/NotPhoton/microWakeWord-Custom-Trainer/refs/heads/main/basic_training_notebook.ipynb /root/basic_training_notebook.ipynb
+ADD https://raw.githubusercontent.com/NotPhoton/microWakeWord-Custom-Trainer/refs/heads/main/advanced_training_notebook.ipynb /root/advanced_training_notebook.ipynb
 
 # Add the startup script from GitHub
-ADD https://raw.githubusercontent.com/stujenn/microWakeWord-Custom-Trainer/refs/heads/main/startup.sh /usr/local/bin/startup.sh
+ADD https://raw.githubusercontent.com/NotPhoton/microWakeWord-Custom-Trainer/refs/heads/main/startup.sh /usr/local/bin/startup.sh
 RUN chmod +x /usr/local/bin/startup.sh
 
 # Ensure /data is the default directory for Jupyter
