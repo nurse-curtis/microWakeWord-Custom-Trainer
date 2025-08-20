@@ -18,7 +18,7 @@ Follow these steps to get started with the microWakeWord Custom Trainer:
 
 If you don't have the directory already on your machine, clone the GitHub repo:
 ```bash
-git clone https://github.com/stujenn/microWakeWord-Custom-Trainer
+git clone https://github.com/NotPhoton/microWakeWord-Custom-Trainer
 cd microWakeWord-Trainer-Docker
 ```
 
