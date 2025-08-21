@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#Install requirements
-python3.10 -m pip install --no-cache-dir -r /tmp/requirements.txt
-
 # Check if basic training notebook exists in /data
 if [ ! -f /data/basic_training_notebook.ipynb ]; then
     echo "Basic training notebook not found in /data. Copying the default notebook..."
